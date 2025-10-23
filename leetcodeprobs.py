@@ -10,3 +10,7 @@ class Solution:
                     return [i, j]  # return their positions
 
 
+# Day 2 - Palindrome Number
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
