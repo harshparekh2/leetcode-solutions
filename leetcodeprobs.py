@@ -14,3 +14,10 @@ class Solution:
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         return str(x) == str(x)[::-1]
+
+
+# Day 3 - Valid Anagram
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        # Sort both strings and compare
+        return sorted(s) == sorted(t)
